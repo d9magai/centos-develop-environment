@@ -1,0 +1,35 @@
+{
+   "name":"guidevenv",
+   "chef_type":"role",
+   "json_class":"Chef::Role",
+
+   "override_attributes":{
+      "java":{
+         "install_flavor":"oracle",
+         "jdk_version":"8",
+         "oracle":{
+		"accept_oracle_download_terms":true
+	}
+      },
+      "eclipse":{
+         "version":"luna",
+         "suite":"java",
+         "plugins":[
+            {
+               "http://vrapper.sourceforge.net/update-site/stable": "net.sourceforge.vrapper.feature.group"
+            },
+            {
+               "http://eclipse-color-theme.github.com/update": "com.github.eclipsecolortheme.feature.feature.group"
+            }
+         ]
+      }
+   },
+   "run_list":[
+        "guienvironment::gnomedesktop",
+        "java",
+        "eclipse",
+        "pleiades"
+     ]
+}
+
+
