@@ -1,5 +1,10 @@
 source "https://api.berkshelf.com/"
 
+
+# base elements
+cookbook 'yumfastestmirror',  github: 'DQNEO/cookbook-yumfastestmirror'
+cookbook 'timezone',          github: 'DQNEO/cookbook-timezone'
+
 # development environment
 cookbook 'java'
 cookbook "eclipse",           github: 'd9magai/eclipse'
