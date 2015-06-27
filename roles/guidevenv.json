@@ -28,7 +28,8 @@
         "guienvironment::gnomedesktop",
         "java",
         "eclipse",
-        "pleiades"
+        "pleiades",
+        "chrome"
      ]
 }
 
