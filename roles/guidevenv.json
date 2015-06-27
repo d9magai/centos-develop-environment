@@ -29,7 +29,8 @@
         "java",
         "eclipse",
         "pleiades",
-        "chrome"
+        "chrome",
+        "opencv"
      ]
 }
 
