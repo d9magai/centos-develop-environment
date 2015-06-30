@@ -20,6 +20,9 @@
             },
             {
                "http://eclipse-color-theme.github.com/update": "com.github.eclipsecolortheme.feature.feature.group"
+            },
+            {
+               "http://download.eclipse.org/releases/luna": "org.eclipse.cdt.feature.group"
             }
          ]
       }
