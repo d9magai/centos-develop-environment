@@ -1,4 +1,5 @@
 {
+  "app_user":"d9magai",
   "run_list":[
     "role[base]",
     "role[guidevenv]"

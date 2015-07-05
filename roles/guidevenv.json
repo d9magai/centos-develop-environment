@@ -33,7 +33,8 @@
         "eclipse",
         "pleiades",
         "chrome",
-        "opencv"
+        "opencv",
+        "app"
      ]
 }
 
