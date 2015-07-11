@@ -6,7 +6,7 @@ cookbook 'yumfastestmirror',  github: 'DQNEO/cookbook-yumfastestmirror'
 cookbook 'timezone',          github: 'DQNEO/cookbook-timezone'
 
 # development environment
-cookbook 'java'
+cookbook 'java', '~> 1.4.0'
 cookbook "eclipse",           github: 'd9magai/eclipse'
 cookbook "pleiades",          github: 'd9magai/chef-pleiades'
 cookbook 'guienvironment',    github: 'd9magai/cookbook-guienvironment'
